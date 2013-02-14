@@ -17,7 +17,7 @@ class Command(BaseCommand):
     loaddataの拡張コマンド。
     loddataした時間や変更個所をMySQL(django_admin_logテーブル)に残してくれる。
     usernameとpasswordはadminのものを使用してください。
-    python ./manage.py loaddata_with_log ./masterdata/json/raid_boss.json --username admin --password admin --app appname --class ModelClass
+    python ./manage.py loaddata_with_log ./masterdata/json/aaa.json --username admin --password admin --app appname --class ModelClass
     """
     
     def init(self):
